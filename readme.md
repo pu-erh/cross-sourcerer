@@ -32,16 +32,18 @@ Hi, here are some rules to carry out this story oav;
 
 > Don't forget, there is no useless question :-)
 
-* You **MUST** return the project on Friday March, 23 at 16:00 pm by sending an MP on slack with the link of your github repo.
+* You **MUST** return the project on Friday May, 14 at 16:00 pm by sending an MP on teams with the link of your github repo.
 
 ## <a name='overview'>🐱 Overview</a>
 
-This project is about visual profile for software engineer and **HAVE TO** be a **UNIVERSAL APP**, thats means work on desktop (yo [**Electron**](https://www.electronjs.org/), website and mobile;<br />
-
-You **HAVE TO** use for all web based applicaiton at least one **PWA** native features: `offline`, `notifications`, etc.
+This project is about visual profile for software engineer and **HAVE TO** be a **UNIVERSAL APP**, thats means work on 2 platforms that you can choose between :
+- Desktop (yo [**Electron**](https://www.electronjs.org/)
+- Website
+- Mobile;<br />
 
 You **CAN** use any ui.x libraries you want [ if interested, you can even create your own ]<br />
-You **CAN** use any front-end libraries you want.
+You **CAN** use any back-end language / framework you want.
+You **MUST** use GraphQL
 
 ## <a name='story'>🐨 Story</a>
 
