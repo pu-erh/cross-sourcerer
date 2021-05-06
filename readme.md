@@ -19,12 +19,13 @@
 Hi, here are some rules to carry out this story oav;
 
 * You **MUST** create a git repository named `cross-sourcerer`
-* You **MUST** create a file called `.author.json` with your fullname
+* You **MUST** create a file called `.author.json` with 2 people 
 
 ```sh
 ~/cross-pwgame ❯❯❯ cat -e .author.json
 {
-  "fullname" : "Richard Stallman"
+  "member1" : "Richard Stallman",
+  "member2" : "Steeve Jobs"
 }$
 ```
 
@@ -33,7 +34,7 @@ Hi, here are some rules to carry out this story oav;
 
 > Don't forget, there is no useless question :-)
 
-* You **MUST** return the project on Friday May, 14 at 16:00 pm by sending an MP on teams with the link of your github repo.
+* You **MUST** return the project on Friday May, 14 at 12:00 by sending an MP on teams with the link of your github repo.
 
 ## <a name='overview'>🐱 Overview</a>
 
@@ -53,9 +54,11 @@ You **MUST** use GraphQL
 Well, as a developer we all use Github ; But is there a way to have visual informations of public users informations and meta-data ?
 Yes ! Thanks to Github API we can have any data we want, and the goal of the project is to make a copycat of.... [**Sourcerer**](https://sourcerer.io/) !
 
-The website first usecase is to simply consume Github API to display data.
+The website first usecase is to simply consume Github API to display data.<br />
+You can have any visual identity you want.
 
 You **MUST** do the same by using **GraphQL Github API** available [here](https://developer.github.com/v4/)
+Everything you need to know for consuming github API is on the documentation.
 
 The purpose here is to share maxium possible code from all clients (and server of course in case of bonuses ;p)
 
