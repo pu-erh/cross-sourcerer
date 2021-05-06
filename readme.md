@@ -60,7 +60,11 @@ A user can create an account and have all the scores saved in his dashboard.
 
 # API
 
-You **HAVE TO** defined a GraphQL API that allow any developer to create a quizz app in a specific platform or language (he will be allow to fetch all quiz, validate answers, ...)
+You **HAVE TO** defined a GraphQL API in any language (the one you like or want to discover) that allow any developer to create a quizz app in a specific platform or language (he will be allow to fetch all quiz, validate answers, ...)
+
+## <a name='credits'>🐵 Evaluation</a>
+
+The evaluation will be around the project but also all cconceptual aspects from database design to core API structure and design.
 
 ## <a name='credits'>🐵 Credits</a>
 
