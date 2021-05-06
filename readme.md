@@ -2,6 +2,7 @@
   <img alt="" src="./sourcerer.logo.png"">
 </p>
 
+> Note that the logo was inspired by an Alumni students (j'assume pas !) 
 ## Hello, Sourcerer
 
 ## <a name='TOC'>🐼 Summary</a>
