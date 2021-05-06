@@ -1,8 +1,3 @@
-<p align="center">
-  <img alt="" src="./sourcerer.logo.png"">
-</p>
-
-> Note that the logo was inspired by an Alumni students (j'assume pas !) 
 ## Hello, Sourcerer
 
 ## <a name='TOC'>🐼 Summary</a>
@@ -38,43 +33,34 @@ Hi, here are some rules to carry out this story oav;
 
 ## <a name='overview'>🐱 Overview</a>
 
-This project is about visual profile for software engineer and **HAVE TO** be a **UNIVERSAL APP**, thats means work on 2 platforms that you can choose between :
-- Desktop (yo [**Electron**](https://www.electronjs.org/)
+The project is about a simple **Quiz App** but not so easy ;
+A user can practice and test å knowledge by answering questions in a specific domain using quiz application.
+
+## <a name='story'>🐨 Features</a>
+
+A User can start the quiz by pressing a button
+A User can see a question with 4 possible answers
+After selecting an answer, display the next question to the User. Do this until the quiz is finished
+
+At the end, the User can see the following statistics
+- Time it took to finish the quiz
+- How many correct answers did he get
+- A message showing if he passed or failed the quiz
+
+# Platform
+
+This project must be available on 2 platforms that you can choose between :
+- Desktop #Electron
 - Website
-- Mobile;<br />
+- Mobile;
 
-You **CAN** use any ui.x libraries you want [ if interested, you can even create your own ]<br />
-You **CAN** use any back-end language / framework you want.
-You **MUST** use GraphQL
+# Authentication
 
-## <a name='story'>🐨 Story</a>
+A user can create an account and have all the scores saved in his dashboard. 
 
-### = Prelude
+# API
 
-Well, as a developer we all use Github ; But is there a way to have visual informations of public users informations and meta-data ?
-Yes ! Thanks to Github API we can have any data we want, and the goal of the project is to make a copycat of.... [**Sourcerer**](https://sourcerer.io/) !
-
-The website first usecase is to simply consume Github API to display data.<br />
-You can have any visual identity you want.
-
-You **MUST** do the same by using **GraphQL Github API** available [here](https://developer.github.com/v4/)
-Everything you need to know for consuming github API is on the documentation.
-
-The purpose here is to share maxium possible code from all clients (and server of course in case of bonuses ;p)
-
-### = Features
-
-Take a look at the screen below ;<br />
-Everything in red is **MANDATORY** and **ROSE** is optionnal
-![](./sourcerer.majdi.png)
-
-## <a name='bonus'>🦄 Bonus</a>
-
-I know you love that, well you can in bulk:
-
-* Create a proxy server that handle Github API request (save them) and then send to the client #data :)
-* Allow a user to connect to Githu using PWA API
-* Add more visual effect #css4TheWin 🎉
+You **HAVE TO** defined a GraphQL API that allow any developer to create a quizz app in a specific platform or language (he will be allow to fetch all quiz, validate answers, ...)
 
 ## <a name='credits'>🐵 Credits</a>
 
