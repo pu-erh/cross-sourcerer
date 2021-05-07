@@ -13,7 +13,7 @@
 
 Hi, here are some rules to carry out this story oav;
 
-* You **MUST** create a git repository named `cross-sourcerer`
+* You **MUST** create a git repository named `cross-quizz`
 * You **MUST** create a file called `.author.json` with 2 people 
 
 ```sh
